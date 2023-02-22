@@ -23,6 +23,7 @@ def main():
 
     print("Sum is: " + str(addList(numbers)))
     print("Product is: " + str(multiplyList(numbers)))
+    print("Reversed List is: " + str(reverseList(numbers)))
 
 if __name__ == "__main__":
     main()
