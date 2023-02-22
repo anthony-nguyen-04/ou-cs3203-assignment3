@@ -12,6 +12,9 @@ def multiplyList(list):
 
     return product
 
+def reverseList(list):
+    return list[::-1]
+
 def main():
     input_numbers = input("Input your numbers on one line\n")
     string_array = input_numbers.strip().split(" ")
