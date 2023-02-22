@@ -11,3 +11,15 @@ def multiplyList(list):
         product = product * element
 
     return product
+
+def main():
+    input_numbers = input("Input your numbers on one line\n")
+    string_array = input_numbers.strip().split(" ")
+
+    numbers = [int(number_string) for number_string in string_array]
+
+    print("Sum is: " + str(addList(numbers)))
+    print("Product is: " + str(multiplyList(numbers)))
+
+if __name__ == "__main__":
+    main()
