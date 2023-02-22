@@ -12,6 +12,9 @@ def multiplyList(list):
 
     return product
 
+def reverseList(list):
+    return list[::-1]
+
 def main():
     input_numbers = input("Input your numbers on one line\n")
     string_array = input_numbers.strip().split(" ")
@@ -20,6 +23,7 @@ def main():
 
     print("Sum is: " + str(addList(numbers)))
     print("Product is: " + str(multiplyList(numbers)))
+    print("Reversed List is: " + str(reverseList(numbers)))
 
 if __name__ == "__main__":
     main()
